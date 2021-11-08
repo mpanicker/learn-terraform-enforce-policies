@@ -96,7 +96,7 @@ policy "restrict-iam-policy-actions" {
 
 policy "restrict-ingress-sg-rule-cidr-blocks" {
   source = "./restrict-ingress-sg-rule-cidr-blocks.sentinel"
-  enforcement_level = "advisory"
+  enforcement_level = "sof-mandatory"
 }
 
 policy "restrict-ingress-sg-rule-rdp" {
